@@ -1,0 +1,24 @@
+package com.company;
+
+public class Node<T> {
+
+    protected T data;
+    protected Node next = null;
+
+    Node(T data){
+        this.data = data;
+    }
+
+    public T getData(){
+        return data;
+    }
+
+    public Node<T> getNext(){
+        return next;
+    }
+
+    public void setNext(Node<T> next){
+        this.next = next;
+    }
+
+}
